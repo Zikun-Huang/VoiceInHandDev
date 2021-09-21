@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.devhenry.voiceinhanddev" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.0" package="com.devhenry.voiceinhanddev" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
-	<application android:label="VoiceInHandDev.Android" 
-				 android:theme="@style/MainTheme" 
-				 android:icon="@mipmap/ic_launcher"
-				 android:roundIcon="@mipmap/ic_launcher_round"></application>
+	<application android:label="VoiceInHandDev.Android" android:theme="@style/MainTheme" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round"></application>
 	<!--<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
 		<background android:drawable="@color/ic_launcher_background" />
 		<foreground android:drawable="@mipmap/ic_launcher_foreground" />
