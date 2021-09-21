@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="VoiceInHandDev.Views.FavouritiesPage">
+             x:Class="VoiceInHandDev.Views.FavouritiesPage"
+             xmlns:Models="clr-namespace:VoiceInHandDev.Models">
     <Shell.TitleView>
         <StackLayout>
             <Label Text="VoiceInHand"
@@ -12,10 +13,44 @@
         </StackLayout>
     </Shell.TitleView>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Favourities Page - TBD"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="#EBEAEA">
+            <Label Text="Your Favourities"
+                   FontSize="Title"
+                   TextColor="Gray"
+                   Margin="0,10,0,0"
+                   FontAttributes="Bold"
+                   VerticalOptions="Start" 
+                   HorizontalOptions="Center" />
+            <ScrollView>
+                <StackLayout BindableLayout.ItemsSource="{x:Static Models:SavedItemConstants.SavedItems}">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BackgroundColor="White"
+                                   Margin="10"
+                                   Padding="20"
+                                   CornerRadius="10"
+                                   HasShadow="True">
+                                <Grid RowDefinitions="0.6*,0.4*"
+                                      ColumnDefinitions="0.8*,0.2*">
+                                    <Label Text="{Binding SavedName}"
+                                           FontSize="Title"
+                                           Grid.Row="0"
+                                           Grid.Column="0"/>
+                                    <Label Text="{Binding SavedTime}"
+                                           FontSize="Small"
+                                           Grid.Row="1"
+                                           Grid.Column="0"/>
+                                    <ImageButton Source="tag_icon.png"
+                                                 BackgroundColor="White"
+                                                 Grid.RowSpan="2"
+                                                 Grid.Column="1"
+                                                 Scale="0.5"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
