@@ -66,9 +66,9 @@
                    Padding="10">
                 <Grid RowDefinitions="0.9*,0.1*"
                       ColumnDefinitions="0.15*,0.7*,0.15*">
-                    <Label Grid.Row="0"
+                    <Entry Grid.Row="0"
                            Grid.ColumnSpan="3"
-                           Text="Hello"
+                           Placeholder="Hello"
                            FontSize="Large"
                            VerticalOptions="Center"
                            HorizontalOptions="Center"/>
@@ -81,7 +81,8 @@
                     <ImageButton Grid.Row="1"
                                  Grid.Column="2"
                                  Source="play_text_icon.png"
-                                 BackgroundColor="White"/>
+                                 BackgroundColor="White"
+                                 Clicked="ImageButton_Clicked"/>
                 </Grid>
             </Frame>
             <ImageButton Source="voice_recorder_icon.png"
