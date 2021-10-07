@@ -67,9 +67,9 @@
                    Padding="10">
                 <Grid RowDefinitions="0.9*,0.1*"
                       ColumnDefinitions="0.15*,0.7*,0.15*">
-                    <Label Grid.Row="0"
+                    <Entry Grid.Row="0"
                            Grid.ColumnSpan="3"
-                           Text="Hello"
+                           Placeholder="Hello"
                            FontSize="Large"
                            VerticalOptions="Center"
                            HorizontalOptions="Center"/>
@@ -90,7 +90,8 @@
                          HorizontalOptions="Center"
                          BackgroundColor="White"
                          Scale="0.8"
-                         Margin="40"/>
+                         Margin="40"
+                         Clicked="ImageButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -16,5 +16,10 @@ namespace VoiceInHandDev.Views
         {
             InitializeComponent();
         }
+
+        async private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync($"{nameof(SignToWordPage)}");
+        }
     }
 }
