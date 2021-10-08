@@ -69,6 +69,7 @@
                       ColumnDefinitions="0.15*,0.7*,0.15*">
                     <Entry Grid.Row="0"
                            Grid.ColumnSpan="3"
+                           WidthRequest="200"
                            Placeholder="Hello"
                            FontSize="Large"
                            VerticalOptions="Center"
