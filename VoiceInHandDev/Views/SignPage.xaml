@@ -33,7 +33,7 @@
                             <Picker.ItemsSource>
                                 <x:Array Type="{x:Type x:String}">
                                     <x:String>English</x:String>
-                                    <x:String>Chinese</x:String>
+                                    <x:String>简体中文</x:String>
                                 </x:Array>
                             </Picker.ItemsSource>
                         </Picker>
@@ -53,7 +53,7 @@
                             <Picker.ItemsSource>
                                 <x:Array Type="{x:Type x:String}">
                                     <x:String>ASL</x:String>
-                                    <x:String>CSL</x:String>
+                                    <x:String>中国手语</x:String>
                                 </x:Array>
                             </Picker.ItemsSource>
                         </Picker>
