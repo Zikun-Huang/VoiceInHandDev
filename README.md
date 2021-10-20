@@ -32,7 +32,7 @@ In the sign language Artificial Intelligence model, we use images as the trainin
 3. There's room to improve our sign-language interpretation model and make it more human-friendly in the future. 
 ![Future & Outlook](https://github.com/CassieJie/VIHPics/blob/main/future-1.png?raw=true)
 
-## Story
+## Story & Design
 ### Inspiration
 Recently, there is a heated discussion on WeiBo App about a disabled father who couldn’t help crying when bringing his daughter to the doctor.  As disabled himself, Mr.Wu’s biggest wish to his child is having a healthy body. He was quite concerned about not being able to communicate before seeing the doctor. When seeing Doc. Wang, Mr. Wu tried his best to write down a mixture of Chinese Character & Pinyin to describe his daughter’s status, with tears dropping non-stop.
 
