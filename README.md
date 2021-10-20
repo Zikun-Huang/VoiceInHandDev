@@ -51,8 +51,10 @@ Just like us who speak different languages, we are also adding support for diffe
 
 ### Back-End Design
 We developed a Back-End system with a web app to interact with SQL database and wrote a video analysing algorithm, and we preserved channels to interact with our Sign-language interpretation AI model to get sign language recognition results.
+
 ![Backend Design 1](https://github.com/CassieJie/VIHPics/blob/main/Back-end.png?raw=true)
 
 ### Sign-language interpretation model
 We take photos of sign language gestures by ourselves as sampling data and then cut out these photos to training the Sign-language interpretation model with lots of marked labels. After input lots of training data, we put some test examples into the model and output the prediction result to the web app.
+
 ![Backend Design 2](https://github.com/CassieJie/VIHPics/blob/main/Model-3.png?raw=true)
