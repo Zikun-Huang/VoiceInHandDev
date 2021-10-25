@@ -1,6 +1,6 @@
 # VoiceInHand (Not Finished, Continue Working on)
 
-This is a Repo for FY2022 Hackathon project, Dev team, CSS, Microsoft, and it's mainly for the mobile app version.
+This is a Repo for FY2021 Hackathon project, Dev team, CSS, Microsoft, and it's mainly for the mobile app version.
 
 You may be able to access this site for more information:
 https://garagehackbox.azurewebsites.net/hackathons/2356/projects/103552
